@@ -147,12 +147,25 @@ h5 {
     padding: 0px;
     margin: 0;
     padding: 0;
+    
 }
 
 #footer a,
 h3 {
     color: black;
-
+    overflow-y: auto;
+    overflow-x: auto;
+}
+#maker{
+    float: left;
+    width: 50%;
+    background: rgb(255, 192, 0);
+}
+#music{
+    float: right;
+    width: 50%;
+    font-size: 25px;
+    background: rgb(255, 192, 0);
 }
 
 .a-25px-text {

@@ -28,11 +28,13 @@ iframe {
 #github-metrics {
     height: 525px;
     width: 485px;
-    
-    
 }
-#moe-rule34{
+
+#moe-rule34 {
     height: 100px;
     width: 450px;
-    
+}
+h1,h2,h3{
+margin-top: 10px;
+margin-bottom: 10px;
 }
