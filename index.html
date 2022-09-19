@@ -2,165 +2,49 @@
 <html>
 
 <head>
-
-
 	<meta name="keywords" content="Github,beautification,guide,Github,美化,指南,教程,美化,个人主页">
 	<meta name="description" content="Github个人主页美化指南">
 	<meta charset="utf-8">
-	<title>Github个人主页美化指南</title>
-	<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<title>Github Overview美化指南</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
 	<script src="./func.js"></script>
+	
 </head>
-<style type="text/css">
-	.top {
-		/* 设置宽度高度背景颜色 */
-		height: auto;
-		/*高度改为自动高度*/
-		width: 100%;
-		margin-left: 0;
-		margin-bottom: 0;
-		background: rgb(255, 192, 0);
-		position: fixed;
-		/*固定在顶部*/
-		top:0;
-		/*离顶部的距离为0*/
-		display: block;
-		float: auto;
-	}
 
-	.top ul {
-		/* 清除ul标签的默认样式 */
-		/* width: auto; */
-		/*宽度也改为自动*/
-		list-style-type: none;
-		white-space: nowrap;
-		overflow: hidden;
-		margin-left: 1%;
-		margin-top: 1%;    
-		padding: 0;
-	}
-	.top li {
-		float: left;
-		/* 使li内容横向浮动，即横向排列  */
-		display: block;
-		margin-right: 2%;
-		margin-top: 1%;
-		/* 两个li之间的距离*/
-		/* position: relative; */
-		overflow: hidden;
-	}
+<body onload="showMain()">
 	
-	.top li a {
-		/* 设置链接内容显示的格式*/
-		display: block;
-		margin-top: 10%;
-		/* 把链接显示为块元素可使整个链接区域可点击 */
-		color: rgb(0, 0, 0);
-		text-align: center;
-		text-size-adjust: 80%;
-		padding: 0;
-		margin: 0;
-		overflow: hidden;
-		text-decoration: none;
-		/* 去除下划线 */
-	}
-	
-	.top li a:hover {
-		/* 鼠标选中时背景变为黑色 */
-		background-color: rgb(255, 255, 255);
-	}
-
-	.top ul li ul {
-		/* 设置二级菜单 */
-		margin-left: -0.2px;
-		background: rgb(189, 181, 181);
-		position: relative;
-		display: none;
-		/* 默认隐藏二级菜单的内容 */
-	}
-
-	.top ul li ul li {
-		/* 二级菜单li内容的显示 */
-		float: none;
-		text-align: center;
-	}
-
-	.top ul li:hover ul {
-		/* 鼠标选中二级菜单内容时 */
-		display: block;
-	}
-
-	body {
-		/* background: #eff3f5; */
-	}
-
-	a {
-		text-decoration: none;
-	}
-
-	img{
-		overflow: hidden;
-	}
-	.navtext{
-		font-size: 23px;
-	}
-	/*.logoimg{
-		float: left;
-		width: 300px;
-	}*/
-	.logoimg{
-		float: left;
-		display: block;
-		height : 30px;
-		overflow: hidden;
-	}
-	#content{
-		float: left;
-	}
-
-</style>
-
-<body>
-	<div class="top">
+	<div class="top" id="top-nav">
 		<ul>
 			<li>
-				<a href="javascript:void(0);" onclick="showMoeCounter()" title="教程主页" >
-					<img src="img/logo.png" class="logoimg">
+				<a class="navtext" href="javascript:void(0);" onclick="showMain()" title="指南主页" >
+					Github Overview美化指南主页
 				</a>
 			</li>
 			<li>
 				<a class="navtext" href="javascript:void(0);" onclick="showMoeCounter()" title="Moe-counter">Moe-counter</a>
 			</li>
-			<li>
+			<!-- <li>
 				<a class="navtext" href="javascript:void(0);" onclick="showMoeCounter()"
 					title="github-readme-stats">github-readme-stats</a>
-			</li>
-
+			</li> -->
 		</ul>
 	</div>
-	<!-- <div id="header" class="navfirst"> 
-		
-		<a href="javascript:void(0);" 
-		onclick="showMoeCounter()" 
-		title="logo"
-		class="navcolor"> 
-			<h2>Github个人主页美化指南</h2>
-		
-		</a>
-		<a href="javascript:void(0);" onclick="showMoeCounter()" title="Moe-counter" class="navcolor">  
-			<h3>Moe-counter</h3>
-		
-		</a>
-		<a href="javascript:void(0);" onclick="showMoeCounter()" title="github-readme-stats" class="navcolor"> 
-			<h3>github-readme-stats</h3>
-		
-		</a>
-	</div> -->
+	
 	<div id="content">
+		<div id="page"></div>
 		
-
 	</div>
-
+	<div id="footer">
+		<ul>
+			<li>
+				<a class="a-25px-text">网站作者：ice-forever</a>
+			</li>
+			<li>
+				<a class="a-25px-text" href="https://ice-forever.github.io/Github-Beautification-Guide/">网站链接（Github pages）</a>
+			</li>
+		</ul>
+		
+	</div>
 </body>
 
 </html>
