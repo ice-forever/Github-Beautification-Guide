@@ -1,6 +1,38 @@
 /*
 本css文件为黑底白字的子网页提供
 */
-body{
+body {
     color: white;
+    height: 100%;
+    background: black;
+}
+
+.text {
+    height: auto;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+img,
+object,
+embed,
+iframe {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#github-metrics {
+    height: 525px;
+    width: 485px;
+    
+    
+}
+#moe-rule34{
+    height: 100px;
+    width: 450px;
+    
 }

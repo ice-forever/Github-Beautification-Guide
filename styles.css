@@ -22,7 +22,7 @@
     white-space: nowrap;
     overflow: hidden;
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -31,7 +31,7 @@
     /* 使li内容横向浮动，即横向排列  */
     display: block;
     margin-right: 2%;
-    margin-top: 1%;
+    margin-top: 0%;
     /* 两个li之间的距离*/
     /* position: relative; */
     overflow: hidden;
@@ -77,18 +77,22 @@
     display: block;
 }
 
-html,
-body {
-    margin: 0;
-    padding: 0;
+html{
     height: 100%;
 }
-
+body{
+    margin: 0;
+    padding: 0;
+    height: 99.9%;
+}
 head {
     height: 0;
     width: 0;
 }
-
+ul{
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
     color: white;
@@ -114,13 +118,11 @@ img {
 }
 
 #content {
-    background: white;
-    height: auto;
+    height: 884px;
 }
 
 #page {
-    background: black;
-    height: auto;
+    height: 100%;
 }
 
 h1,
@@ -134,13 +136,17 @@ h5 {
 #footer {
     background: rgb(255, 192, 0);
     height: 75px;
-    clear: both;
+    width: 100%;
+    /* clear: both; */
+    bottom: 0;
+    /* position: fixed; */
 }
 
 #footer ul {
     list-style-type: none;
-    padding: 3px;
+    padding: 0px;
     margin: 0;
+    padding: 0;
 }
 
 #footer a,
