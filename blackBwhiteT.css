@@ -14,6 +14,19 @@ body {
     text-align: center;
 }
 
+.lefttext {
+    height: auto;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.URL {
+    font-size: 30px;
+    color: rgb(119, 238, 255);
+    text-decoration: none;
+}
+
 img,
 object,
 embed,
@@ -30,11 +43,17 @@ iframe {
     width: 485px;
 }
 
-#moe-rule34 {
+.moe-rule34 {
     height: 100px;
     width: 450px;
 }
-h1,h2,h3{
-margin-top: 10px;
-margin-bottom: 10px;
+.gelbooru {
+    height: 150px;
+    width: 680px;
+}
+h1,
+h2,
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
