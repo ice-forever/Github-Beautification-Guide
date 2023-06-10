@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>JDBC-counter [使用数据库的简易计数器]</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./blackBwhiteT.css">
+
+</head>
+
+<body>
+	<div class="text">
+		<h1>JDBC-counter [使用数据库的简易计数器]</h1>
+		<h2>
+			使用JDBC和Servlet实现的简易计数器
+			</h2>
+	</div>
+	<div class="lefttext">
+		<h3>
+			如何使用:(NAME为与计数数据对应的字符串)
+			</h3>
+			<h4>在本页面URL地址后加上如下内容</h4>
+			本页面URL地址/Counter?name=NAME
+			<h4>或者：（上面的返回带有计数数据的一个简易HTML网页，而下面的只返回Int形式的计数数据）</h4>
+			本页面URL地址/test?name=NAME
+	</div>
+	<br>
+	<div class="lefttext">
+		<h3>测试示例：</h3>
+		<h4>例如：如果当前页面网站为：http://localhost:8080/GithubBeautificationGuide/</h4>
+		<p>使用该链接返回的网页源代码如下</p>
+		<a class="URL" target="_blank" href="http://localhost:8080/GithubBeautificationGuide/Counter?name=NAME">http://localhost:8080/GithubBeautificationGuide/Counter?name=NAME</a>
+		<p>&lt;!DOCTYPE html&gt;
+		<br>&lt;HTML&gt;
+	 	<br>&lt;HEAD&gt;&lt;meta charset="utf-8"&gt;&lt;/HEAD&gt;
+		<br>&lt;BODY&gt;
+		<br>1
+		<br> &lt;/BODY&gt;
+		<br>&lt;/HTML&gt;
+		</p>
+		<p>使用该链接返回的网页源代码如下</p>
+		<a class="URL" target="_blank" href="http://localhost:8080/GithubBeautificationGuide/test?name=NAME">http://localhost:8080/GithubBeautificationGuide/test?name=NAME</a>
+		<p>1</p>
+	</div>
+	<div class="lefttext">
+	<h2>部署等相关说明请参见设计文档
+	</h2>
+	</div>
+
+</body>
+
+</html>
